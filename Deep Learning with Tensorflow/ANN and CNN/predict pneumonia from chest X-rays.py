@@ -5,11 +5,11 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 
-# Section1: Loading images from directories for training and test
+#Loading images from directories for training and test
 trainig_img_dir ="images/chest_xray/train"
 test_img_dir ="images/chest_xray/test"
 
-# ImageDataGenerator class provides mechaism to load both small and large dataset.
+# ImageDataGenerator class provides mechanism to load both small and large dataset.
 # Instruct ImageDataGenerator to scale to normalize pixel values to range (0, 1)
 datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255.)
 #Create training image iterator that will be loaded in small batch size.
@@ -24,7 +24,7 @@ test_it = datagen.flow_from_directory(test_img_dir, batch_size=2,
 
 
 
-# Lines 22 through 24 are optional to explore your images.
+# Lines 22 through 24 are optional to explore images.
 # Notice, next() function call returns both pixel and labels values as numpy arrays.
 train_images, train_labels = train_it.next()
 test_images, test_labels = test_it.next()
@@ -32,7 +32,7 @@ print('Batch shape=%s, min=%.3f, max=%.3f' % (train_images.shape,
                                               train_images.min(),
                                               train_images.max()))
 
-# Section 2: Build CNN network and train with training dataset.
+# Build CNN network and train with training dataset.
 # You could pass argument parameters to build_cnn() function to set some of the values
 # such as number of filters, strides, activation function, number of layers etc.
 def build_cnn():
@@ -62,7 +62,7 @@ model.compile(optimizer='adam',
 history = model.fit_generator(train_it, epochs=10, steps_per_epoch=2000,
                     validation_data=test_it, validation_steps=2)
 
-# Section 3: Save the CNN model to disk for later use.
+# Save the CNN model to disk for later use.
 model_path = "models/pneumiacnn"
 model.save(filepath=model_path)
 
