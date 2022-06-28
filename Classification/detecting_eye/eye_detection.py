@@ -2,7 +2,7 @@
 """
 Created on Fri Nov 19 11:38:29 2021
 
-@author: gjy3r6 (Elton Landers)
+@author: Elton Landers
 """
 import os
 import cv2
@@ -29,7 +29,7 @@ from tensorflow.keras.models import load_model
 
 
 # Train and Test data paths
-train_path = r"" # number of classes are 4
+train_path = r"" # number of classes
 test_path = r""
 
 # start_time = time.time()
