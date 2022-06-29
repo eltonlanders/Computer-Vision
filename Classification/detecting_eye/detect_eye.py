@@ -220,8 +220,7 @@ print(cm)
 
 
 # Plotting the confusion matrix
-ls = ['eyeDetected_sure', 'eyeDetected_unsure', 
-      'eyeNotDetected_sure', 'eyeNotDetected_unsure']
+ls = [] # list of labels
 
 disp = ConfusionMatrixDisplay(
     confusion_matrix = cm, 
