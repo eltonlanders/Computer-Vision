@@ -160,7 +160,7 @@ early_stop = EarlyStopping(monitor = 'val_accuracy',
 """
 
 # Save the model using callbacks
-checkpoint_dir = "eye_detection_models/eye_detection_01.h5"
+checkpoint_dir = "models/detection_01.h5"
 
 checkpoint = ModelCheckpoint(
     filepath = checkpoint_dir,
