@@ -2,7 +2,7 @@
 """
 Created on Wed Feb  2 17:28:10 2022
 
-@author: gjy3r6 (Elton Landers)
+@author: Elton Landers
 """
 import os
 import cv2
