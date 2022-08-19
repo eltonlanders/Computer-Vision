@@ -25,7 +25,7 @@ def convert(img_size, box):
     return (x, y, w, h)
 
 def decode_json(json_floder_path, json_name):
-    txt_name = "C:/Users/gjy3r6/Documents/yolo_custom_data/dataset (3)/labels_text/" + json_name[0:-5] + ".txt" # Absolute path of the folder which will contain text files
+    txt_name = " " + json_name[0:-5] + ".txt" # Absolute path of the folder which will contain text files
     txt_file = open(txt_name, 'w')
 
     json_path = os.path.join(json_floder_path, json_name)
