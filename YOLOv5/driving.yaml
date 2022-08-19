@@ -1,0 +1,9 @@
+# train and val data
+train: ../dataset/set_1/images/train/
+val: ../dataset/set_1/images/val/
+
+# number of classes
+nc: 4
+
+# class names
+names: ['eye', 'nose', 'ear', 'mouth']
