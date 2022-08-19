@@ -18,5 +18,9 @@ An example of a row (object) in the text file - 0 0.41768292682926833 0.30753968
 Tool used for labelling - https://pypi.org/project/labelme/ <br>
 The tool outputs a JSON file with the correct annotation information. Convert this JSON to the required text format using the code "json_to_text.py". <br>
 
+Edit the .yaml file to contain the train and val image paths. Enter the number of classes and the class names. <br>
+Check out the reference .yaml file. <br>
+
+
 
 
