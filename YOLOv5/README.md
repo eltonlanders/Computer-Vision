@@ -9,4 +9,13 @@ Each image will have its correct label within the correct folder. <br>
 ![snip-211](https://user-images.githubusercontent.com/57378191/185542960-a126e6b8-b845-4146-8efc-b9aadbd4a075.PNG)
 
 
-The label format 
+The "label" should be a text file with the .txt extension. <br>
+Every row is an object. <br>
+The format of each row is - class x_center y_center width height <br>
+To normalize xywh (mandatory), divide x_center and width by image width and divide y_center and height by image height. <br>
+An example of a row (object) in the text file - 0 0.41768292682926833 0.3075396825396825 0.08231707317073171 0.05555555555555555 <br>
+
+Tool used for labelling - https://pypi.org/project/labelme/ <br>
+
+
+
