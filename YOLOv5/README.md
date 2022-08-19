@@ -21,6 +21,7 @@ The tool outputs a JSON file with the correct annotation information. Convert th
 Edit the .yaml file to contain the train and val image paths. Enter the number of classes and the class names. <br>
 Check out the reference .yaml file. <br>
 
+Now use the "start_training.py" as a reference to start the training. <br>
 
 
 
