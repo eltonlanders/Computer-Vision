@@ -6,18 +6,7 @@ Within both these folders, two more subfolders "train" and "val" should be prese
 The subfolder "images" should contain images split into train and val sets. <br> 
 The subfolder "labels" should contain labels split into train and val sets. There should be as many labels in train subfolder as there are images in the images train subfolder. It's the same for val subfolder. <br>
 Each image will have its correct label within the correct folder. <br>
-Data -- Images
-         -- train
-           -- 1.png
-           -- 2.png
-         -- val
-           -- 3.png
-     -- Labels
-         -- train
-           -- 1.txt
-           -- 2.txt
-         -- val
-           -- 3.txt
+![snip-211](https://user-images.githubusercontent.com/57378191/185542960-a126e6b8-b845-4146-8efc-b9aadbd4a075.PNG)
 
 
 The label format 
