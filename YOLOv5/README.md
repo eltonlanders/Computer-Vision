@@ -22,6 +22,6 @@ Edit the .yaml file to contain the train and val image paths. Enter the number o
 Check out the reference .yaml file. <br>
 
 Now use the "start_training.py" as a reference to start the training. <br>
-
+To do default inference on an mp4 or YOLO supported format, refer to "default_inference.py". <br>
 
 
