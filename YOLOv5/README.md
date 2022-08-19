@@ -16,6 +16,7 @@ To normalize xywh (mandatory), divide x_center and width by image width and divi
 An example of a row (object) in the text file - 0 0.41768292682926833 0.3075396825396825 0.08231707317073171 0.05555555555555555 <br>
 
 Tool used for labelling - https://pypi.org/project/labelme/ <br>
+The tool outputs a JSON file with the correct annotation information. Convert this JSON to the required text format using the code "json_to_text.py". <br>
 
 
 
