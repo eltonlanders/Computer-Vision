@@ -1,2 +1,2 @@
 # Computer-Vision
-This is a repo for my projects and work done in the field of Computer Vision.
+This is a repository for all anything I update regarding the projects and my work done in the field of Computer Vision. 
