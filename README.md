@@ -1,2 +1,3 @@
 # Computer-Vision
-This is a repository for my projects and my work done in the field of Computer Vision that I showcase. 
+Welcome to my GitHub repository where I showcase my projects and work in the field of Computer Vision. 
+Here, you'll find a variety of projects ranging from basic image processing to advanced deep learning models. 
